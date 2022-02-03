@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  -ms-overflow-style: none;
+  background:#D6D6D6;
+  margin:0;
+  padding:0;
+  width:100vw;
+  height:100vh;
+  overflow:scroll;
+}
+
+* { 
+  font-family:'Noto Sans KR';
+  font-size:16px;
+  font-weight:400;
+}
+
+
+::-webkit-scrollbar { 
+  display: none !important;;
+}
+
+
+element.style {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+

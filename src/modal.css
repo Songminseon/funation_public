@@ -1,0 +1,159 @@
+.custom-dialog {
+    display:inline-block;
+    width: 400px;
+    background-color:#F2F2F2;
+    height: 100vh;
+    border: none;
+    outline : none;
+}
+
+.custom-dialog2{
+    display:inline-block;
+    width: 400px;
+    height:100vh;
+    border: none;
+    outline : none;
+}
+
+.package{
+    display:inline-block;
+    width:400px;
+    display: flex;
+    align-items: center;
+    margin-left:calc(50% - 200px);
+    border: none;
+    outline : none;
+    height: 5vh;
+    margin-top:47.5vh;
+
+  
+}
+
+
+.custom-payments{
+    position: absolute;
+    width:400px;
+    height:169px;
+    bottom:0;
+    margin-left:calc(50% - 200px);
+    background:white;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 12px 12px 0px 0px;
+    border: none;
+    outline : none;
+}
+
+
+
+.custom-dialog-left{
+    position: relative;
+    display:inline-block;
+    width:268px;
+    height:100vh;
+    margin-right:132px;
+    background-color: white;
+    border: none;
+    outline : none;
+}
+
+.custom-dialog-right{
+    position: relative;
+    display:inline-block;
+    width:268px;
+    height:100vh;
+    background-color: white;
+    margin-left:132px;
+    border: none;
+    outline : none;
+}
+
+.donation-intro{
+    position: relative;
+    width:400px;
+    height:100vh;
+    margin-left:calc(50% - 200px);
+    border: none;
+    outline : none;
+}
+
+.result-modal{
+    width:368px;
+    height:calc(100vh - 32px);
+    margin-left:16px;
+    margin-top:16px;
+    margin-left:calc(50% - 184px);
+    background: white;
+    position: relative;
+    border: none;
+    outline : none;
+    border-radius: 4px;
+}
+
+.charge-modal{
+    position: relative;
+    width:368px;
+    height:calc(100vh - 74px);
+    background:white;
+    margin-top: 16px;
+    margin-left:calc(50% - 184px);
+    border: none;
+    outline : none;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.final-payments{
+    width:368px;
+    height:210px;
+    margin-left:calc(50% - 184px);
+    margin-top:calc(50vh - 105px);
+    background:white;
+    border: 1px solid #E5E5E5;
+    outline:none;
+    border-radius: 4px;
+    
+}
+
+@media screen and (max-width:400px){
+    .custom-dialog{
+        width:100%;
+        margin-left:0;
+    }        
+    .custom-dialog2{
+        width:100%;
+    }
+    
+    .custom-dialog-right{
+        margin-left:calc(100vw - 268px);
+    }
+
+    .donation-intro{
+        width:100%;
+        margin-left:0;
+    }
+    .custom-payments{
+        width:100%;
+        margin-left:0;
+    }
+
+    .package{
+        width:100%;
+        margin-left:0;
+    }
+
+    .result-modal{
+        width:calc(100% - 32px);
+        margin-left: 16px;
+    }
+
+    .charge-modal{
+        width:calc(100% - 32px);
+        margin-left:16px;
+    }
+
+    .final-payments{
+        width:calc(100% - 32px);
+        margin-left:16px;
+    }
+    
+}
+

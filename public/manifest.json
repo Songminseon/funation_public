@@ -1,0 +1,15 @@
+{
+  "short_name": "Funation",
+  "name": "퍼네이션 기부니가 좋다",
+  "icons": [
+    {
+      "src": "https://oopy.lazyrockets.com/api/rest/cdn/image/e65c1077-1e6b-44d8-8e1c-f8052196f52c.png?d=16",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "http://do.funation.io",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#FFFFFF"
+}
